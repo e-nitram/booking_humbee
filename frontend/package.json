@@ -1,0 +1,56 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/app/plugins/my-react-app/frontend/build/",
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/dm-sans": "^5.0.21",
+    "@fontsource/poppins": "^5.0.14",
+    "@mui/icons-material": "^5.14.1",
+    "@mui/joy": "^5.0.0-beta.36",
+    "@mui/material": "^5.14.2",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "@mui/x-date-pickers": "^6.10.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "dayjs": "^1.11.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-notifications": "^1.7.4",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.11",
+    "swiper": "^11.1.3",
+    "typeface-source-sans-pro": "^1.1.13",
+    "validator": "^13.9.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "craco build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
